@@ -71,3 +71,25 @@ main > * {
 /* media queries */
 
 /* YOUR CODE HERE */
+
+@media screen and (max-width:768px) {
+  .airplane-list-container{
+    display:flex;
+    flex-direction: column;
+  }
+
+  header{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav{
+    margin-top:2vh;
+    margin-bottom:1vh;
+  }
+
+  h2{
+    margin-left: 0px;
+  }
+}
