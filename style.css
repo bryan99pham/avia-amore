@@ -76,6 +76,11 @@ main > * {
   .airplane-list-container{
     display:flex;
     flex-direction: column;
+    width:100%;
+  }
+
+  .airplane-card{
+    width:100%
   }
 
   header{
